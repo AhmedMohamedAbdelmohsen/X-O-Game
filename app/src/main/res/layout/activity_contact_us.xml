@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".ContactUs">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_backc"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@drawable/background_round"
+            android:layout_margin="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="48sp"
+                android:textColor="@color/lightblue"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/btn_phone"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/background_round"
+                    android:backgroundTint="#4CAF50"
+                    android:src="@drawable/ic_phone"
+                    android:elevation="5dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_facebook"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/background_round"
+                    android:backgroundTint="#3F51B5"
+                    android:src="@drawable/facebook"
+                    android:elevation="5dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_mail"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/background_round"
+                    android:backgroundTint="#F74343"
+                    android:src="@drawable/ic_mail"
+                    android:elevation="5dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

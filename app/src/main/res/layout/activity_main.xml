@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:theme="@style/toolbar" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/x_lottie"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/x_lottie" />
+
+        <Button
+            android:id="@+id/btn_with_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/darkblue"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:text="Start Playing"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/o_lottie"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_above="@id/btn_with_friend"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/o_lottie" />
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Exit"
+                android:textColor="#0e0e0e"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/btn_exit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/background_round"
+                android:src="@drawable/ic_exit" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>
