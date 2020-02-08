@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">X O</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="exit">Exit</string>
+    <string name="start_playing">Start Playing</string>
+    <string name="select_your_side">Select Your Side</string>
+    <string name="name_of_o_player">Name of O Player</string>
+    <string name="name_of_x_player">Name of X Player</string>
+    <string name="continue_btn">Continue</string>
+    <string name="_0_wins">0 wins</string>
+    <string name="_0_draws">0 draws</string>
+    <string name="play_again">play again !</string>
+    <string name="no_winner">there is no one winner!</string>
+    <string name="draw">draws</string>
+    <string name="has_won">has won!</string>
+    <string name="wins">wins</string>
+    <string name="its_turn_of">it\'s turn of:</string>
+    <string name="do_you_want_close">Do you want to close this game ?</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="alert">Alert To Exit!!</string>
+    <string name="please_enter_name_of_o_player">Please enter Name of O player</string>
+    <string name="please_enter_name_of_x_player">Please enter Name of X player</string>
 </resources>

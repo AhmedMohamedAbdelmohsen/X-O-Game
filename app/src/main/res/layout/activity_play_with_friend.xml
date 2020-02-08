@@ -40,7 +40,7 @@
                     android:id="@+id/o_wins"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0 wins"
+                    android:text="@string/_0_wins"
                     android:textColor="@color/blue"
                     android:textSize="24sp" />
 
@@ -62,7 +62,7 @@
                     android:id="@+id/x_wins"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0 wins"
+                    android:text="@string/_0_wins"
                     android:textColor="@color/red"
                     android:textSize="24sp" />
 
@@ -85,7 +85,7 @@
                     android:id="@+id/draws"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0 draws"
+                    android:text="@string/_0_draws"
                     android:textColor="#0e0e0e"
                     android:textSize="24sp" />
 
@@ -290,7 +290,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Exit"
+                    android:text="@string/exit"
                     android:textColor="#0e0e0e"
                     android:textSize="24sp" />
 
@@ -319,7 +319,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="play again !"
+                    android:text="@string/play_again"
                     android:textColor="#0e0e0e"
                     android:textSize="18sp"
                     android:textStyle="bold"

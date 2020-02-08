@@ -19,25 +19,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Select Your Side"
+            android:text="@string/select_your_side"
             android:textColor="@color/darkblue"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:id="@+id/main_linear"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/select_side"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="2">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
 
                 <ImageView
                     android:id="@+id/image_o"
@@ -47,21 +50,23 @@
 
                 <EditText
                     android:id="@+id/et_o_player"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:backgroundTint="@color/blue"
-                    android:hint="Name of O Player"
+                    android:hint="@string/name_of_o_player"
                     android:maxLength="10"
                     android:singleLine="true"/>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
 
                 <ImageView
                     android:id="@+id/image_x"
@@ -71,11 +76,11 @@
 
                 <EditText
                     android:id="@+id/et_x_player"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:backgroundTint="@color/red"
-                    android:hint="Name of X Player"
+                    android:hint="@string/name_of_x_player"
                     android:maxLength="10"
                     android:singleLine="true"/>
 
@@ -96,7 +101,7 @@
             android:paddingTop="10dp"
             android:paddingRight="20dp"
             android:paddingBottom="10dp"
-            android:text="Continue"
+            android:text="@string/continue_btn"
             android:textColor="@android:color/white"
             android:textSize="30sp" />
 

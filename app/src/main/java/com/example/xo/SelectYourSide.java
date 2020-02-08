@@ -31,11 +31,11 @@ public class SelectYourSide extends AppCompatActivity {
                 String oNamePlayer, xNamePlayer;
                 oNamePlayer = binding.etOPlayer.getText().toString().trim();
                 xNamePlayer = binding.etXPlayer.getText().toString().trim();
-                if (oNamePlayer.isEmpty()){
-                    binding.etOPlayer.setError("Please enter Name of O player");
-                }else if (xNamePlayer.isEmpty()){
-                    binding.etXPlayer.setError("Please enter Name of X player");
-                }else {
+                if (oNamePlayer.isEmpty()) {
+                    binding.etOPlayer.setError("" + R.string.please_enter_name_of_o_player);
+                } else if (xNamePlayer.isEmpty()) {
+                    binding.etXPlayer.setError(""+ R.string.please_enter_name_of_x_player);
+                } else {
                     Intent in = new Intent(SelectYourSide.this, PlayWithFriend.class);
                     in.putExtra("oNamePlayer", oNamePlayer);
                     in.putExtra("xNamePlayer", xNamePlayer);

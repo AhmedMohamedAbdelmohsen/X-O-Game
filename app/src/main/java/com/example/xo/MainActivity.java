@@ -44,13 +44,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this, R.style.AlertDialogStyle);
-                builder.setMessage("Do you want to Close this Game ?").setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setMessage(R.string.do_you_want_close).setCancelable(false)
+                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 finish();
-                                System.exit(0);                            }
-                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                System.exit(0);
+                            }
+                        }).setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 });
 
                 AlertDialog ExitDialog = builder.create();
-                ExitDialog.setTitle("Alert to Exit !!!");
+                ExitDialog.setTitle(R.string.alert);
                 ExitDialog.show();
             }
         });

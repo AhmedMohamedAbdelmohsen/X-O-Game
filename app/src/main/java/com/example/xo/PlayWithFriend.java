@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -47,15 +48,15 @@ public class PlayWithFriend extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(PlayWithFriend.this, R.style.AlertDialogStyle);
-                builder.setMessage("Do you want to close this game ?").setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                builder.setMessage(R.string.do_you_want_close).setCancelable(false)
+                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 Intent in = new Intent(PlayWithFriend.this, MainActivity.class);
                                 startActivity(in);
                                 finish();
                             }
-                        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        }).setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
@@ -63,7 +64,7 @@ public class PlayWithFriend extends AppCompatActivity {
                 });
 
                 AlertDialog CloseGame = builder.create();
-                CloseGame.setTitle("Alert To Exit!!");
+                CloseGame.setTitle(R.string.alert);
                 CloseGame.show();
             }
         });
@@ -72,15 +73,15 @@ public class PlayWithFriend extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         AlertDialog.Builder builder = new AlertDialog.Builder(PlayWithFriend.this, R.style.AlertDialogStyle);
-        builder.setMessage("Do you want to close this game ?").setCancelable(false)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        builder.setMessage(R.string.do_you_want_close).setCancelable(false)
+                .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Intent in = new Intent(PlayWithFriend.this, MainActivity.class);
                         startActivity(in);
                         finish();
                     }
-                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                }).setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
@@ -88,11 +89,12 @@ public class PlayWithFriend extends AppCompatActivity {
         });
 
         AlertDialog CloseGame = builder.create();
-        CloseGame.setTitle("Alert To Exit!!");
+        CloseGame.setTitle(R.string.alert);
         CloseGame.show();
 
     }
 
+    @SuppressLint("SetTextI18n")
     public void dropin(View view) {
 
         gameMoves++;
