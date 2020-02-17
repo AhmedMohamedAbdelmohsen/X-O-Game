@@ -9,12 +9,10 @@
 </ul>
 <p style="line-height: 1;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Design the layouts of the application.</span></p>
 <p style="line-height: 1;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Develop the android application.</span></p>
-<p style="line-height: 1;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;color:black;">Design and create the application database</span><span style="font-size:13px;line-height:110%;font-family:&quot;Calibri&quot;,sans-serif;color:black;">.</span></span></p>
 <ul>
-  <li><strong><span style="font-family:&quot;Open Sans&quot;,sans-serif;">Tools</span></strong><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
+  <li style="line-height: 1;"><strong><span style="font-family:&quot;Open Sans&quot;,sans-serif;">Tools</span></strong><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></li>
 </ul>
-<p style="margin-top:0cm;margin-right:4.5pt;margin-bottom:.25pt;margin-left:6.0pt;text-indent:-.5pt;line-height:110%;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;color:black;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Android, Android Studio, MVVM, Java, Room DB,&nbsp;</span></p>
-<p style="margin-top:0cm;margin-right:4.5pt;margin-bottom:.25pt;margin-left:6.0pt;text-indent:-.5pt;line-height:110%;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;color:black;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Live Data, Animations of layouts, GitHub.</span></p>
+<p style="margin-top:0cm;margin-right:4.5pt;margin-bottom:.25pt;margin-left:6.0pt;text-indent:-.5pt;line-height:110%;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;color:black;"><span style="font-size:13px;line-height:110%;font-family:&quot;Open Sans Light&quot;,sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Android, Android Studio, Java, Photoshop.</span></p>
 
 [Download X O Game APK](https://drive.google.com/file/d/1v2kb0hzjLo8_6gAXF7HE8wrC7uo1WF7Z/view?usp=sharing)
 
